@@ -10,7 +10,7 @@ role :db,  %w{deploy@45.55.38.186}
 
 
 
-  ssh_options: {
+ set  :ssh_options, {
     user: 'deploy', # overrides user setting above
     forward_agent: true,
     auth_methods: %w(password),
