@@ -31,5 +31,9 @@ group :development, :test do
   gem "better_errors"
   gem "binding_of_caller"
   gem "pry"
+  gem "capistrano-rails"
+  gem "capistrano"
+  gem "capistrano-bundler"
+  gem "capistrano-rvm", github: "capistrano/rvm"
 end
 
